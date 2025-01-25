@@ -9,7 +9,14 @@ const jwt = require('jsonwebtoken');
 
 
 router.get('/',(req,res)=>{
-  res.send("Welcome to SBK Backend . . .")
+  res.send("Welcome to SBK Backend . . . .")
+})
+
+
+
+
+router.get('/called',(req,res)=>{
+  res.send("Nayan is Welcome to SBK Backend . . . .")
 })
 
 
